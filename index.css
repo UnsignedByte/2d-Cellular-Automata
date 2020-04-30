@@ -1,0 +1,28 @@
+/*
+* @Author: UnsignedByte
+* @Date:   00:53:47, 29-Apr-2020
+* @Last Modified by:   UnsignedByte
+* @Last Modified time: 00:53:51, 29-Apr-2020
+*/
+
+:root {
+  --bg-color: white;
+  --header-bg-color: lightgrey;
+  --row-bg-color-light: whitesmoke;
+  --menu-button-unselected: green;
+  --menu-button-selected: darkgreen;
+  --submenu-button-unselected: forestgreen;
+  --submenu-button-selected: forestgreen;
+}
+html {
+  height:100%;
+  overflow: hidden;
+}
+
+body {
+  width:100%;
+  height:100%;
+  overflow: auto;
+  margin: 0;
+  background-color: var(--bg-color);
+}
